@@ -19,7 +19,6 @@ const Router = () => {
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/shopping/cart' element={<ShoppingCart/>}/>
             <Route path='/movies' element={<Api/>}/>
-            <Route path='*' element={<Home/>}/>
         </Routes>
     </div>
   )
