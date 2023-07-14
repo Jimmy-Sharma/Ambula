@@ -1,6 +1,5 @@
 #navbarContainer {
     width: 100%;
-    border-bottom: 3px solid black;
     background: linear-gradient(rgb(199, 199, 250), pink);
     height: 60px;
     display: flex;
