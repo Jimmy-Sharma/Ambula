@@ -1,0 +1,40 @@
+#navbarContainer {
+    width: 100%;
+    border-bottom: 3px solid black;
+    background: linear-gradient(rgb(199, 199, 250), pink);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbarSubContainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbarSubContainer img {
+    width: 20%;
+}
+
+#routes {
+    width: 110%;
+}
+
+#routes button {
+    width: 15%;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#routes button:hover {
+    color: rgb(1, 198, 1);
+}

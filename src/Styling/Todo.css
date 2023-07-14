@@ -1,0 +1,78 @@
+#todoCon {
+    width: 100%;
+    background: linear-gradient(rgb(199, 199, 250), pink);
+    padding-top: 30px;
+    height: 100vh;
+}
+
+#todoContainer {
+    display: grid;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    gap: 20px;
+}
+
+#todoTable{
+    border: 2px solid grey;
+    display: grid;
+    width: 100%;
+    padding: 20px;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+thead{
+    border-bottom: 2px solid;
+    margin-bottom: 15px;
+    background-color: rgb(125, 125, 143);
+    padding: 10px;
+}
+tbody{
+    background-color:;
+    padding: 10px;
+}
+#bodyMap{
+    border-bottom: 2px solid  rgb(91, 181, 184);
+    padding: 2px ;
+}
+#inputDiv{
+    display: grid;
+    justify-content: center;
+}
+#inputTask{
+width: 200px;
+height: 40px;
+font-size: 22px;
+font-weight: bold;
+padding: 4px;
+border-radius: 5px;
+border: none;
+}
+
+#submitTask{
+    height: 30px;
+    width: 100px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(21, 212, 21);
+    color: white;
+    font-weight: bold;
+}
+#todoDltBtn{
+    height: 25px;
+    width: 80px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(251, 0, 59);
+    color: white;
+    font-weight: bold;
+}

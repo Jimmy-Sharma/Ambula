@@ -1,0 +1,42 @@
+#TopContainer {
+    text-align: center;
+    background: linear-gradient(rgb(199, 199, 250), pink);
+}
+
+#homeContainer {
+    width: 100%;
+    background: linear-gradient(rgb(199, 199, 250), pink);
+    padding-top: 50px;
+    height: auto;
+    padding-bottom: 172px;
+}
+
+#container {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+#container div {
+    justify-content: center;
+}
+
+#leftCon {
+    display: grid;
+    justify-content: center;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 250px;
+}
+
+/* #heading{
+    margin-top: -180px;
+}
+#bio{
+    margin-top: -300px;
+} */
